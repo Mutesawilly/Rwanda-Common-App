@@ -65,6 +65,7 @@ span{
 /* Landing page css */
 .landing-page{
     background-image: url('images/college_opportunity_council_for_education_trio_programs_access_success1.jpg');
+    object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -296,4 +297,84 @@ span{
     font-size: 16px;
     outline: none;
     border: maroon 2px solid;
+}
+
+/* Support team css */
+.container{
+    display: flex;
+    justify-content: stretch;
+    background-color: maroon;
+    gap: 2.5rem;
+}
+.support-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: maroon;
+}
+.support-team-heading{
+    font-size: 48px;
+    color: beige;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.support-team-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: beige;
+    background-color: maroon;
+}
+.support-team-description{
+    font-size: 16px;
+    color: beige;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.support-team-btns{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.support-team-btn{
+    color: beige;
+    background-color: maroon;
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    border: beige 2px solid;
+}
+.support-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    color: beige;
+    padding: 1rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-content a{
+    color: beige;
+    text-decoration: none;
+}
+.footer-content a:hover{
+    color: white;
+}
+.footer-content span{
+    color: beige;
 }
