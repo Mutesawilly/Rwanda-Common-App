@@ -124,6 +124,7 @@ span{
     align-items: center;
     flex-direction: column;
     padding: 2rem;
+    background-color: maroon;
 }
 .search-content{
     display: flex;
@@ -133,7 +134,7 @@ span{
 }
 .search-page-heading{
     font-size: 48px;
-    color: maroon;
+    color: beige;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -142,15 +143,15 @@ span{
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
-    color: maroon;
+    color: beige;
     margin: 1rem;
-    border: 2px solid maroon;
-    border-radius: 25px;
+    border: 2px solid beige;
+    border-radius: 35px;
     padding: 0.1rem 1.5rem;
 }
 .search-icon {
     font-size: 24px;
-    color: maroon;
+    color: beige;
     cursor: pointer;
 }
 .search-input{
@@ -160,9 +161,11 @@ span{
     border-radius: 25px;
     outline: none;
     width: 100%;
+    background-color: maroon;
+    color: beige;
 }
 .view-more-btn{
-    color: maroon;
+    color: beige;
     background: none;
     margin: 3rem 2rem;
     text-decoration: underline;
@@ -190,17 +193,18 @@ span{
 }
 
 .search-terminologies span:hover {
-    background-color: maroon;
+    background-color: beige;
+    color: maroon;
 }
 .search-btn{
-    color: white;
-    background-color: maroon;
+    color: maroon;
+    background-color: beige;
     padding: 0.8rem 2rem;
     border-radius: 25px;
     text-decoration: none;
     font-size: 16px;
     outline: none;
-    border: maroon 2px solid;
+    border: beige 2px solid;
 }
 /* Portals to becoming a member college or a counselors or recommenders css */
 .become-counselor{
@@ -215,6 +219,45 @@ span{
     justify-content: center;
     flex-direction: column;
     padding: 2rem;
+    border: 2px solid maroon;
+}
+.become-recommender-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: beige;
+    background-color: maroon;
+}
+.become-counselor-heading{
+    font-size: 48px;
+    color: maroon;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.become-recommender-heading {
+    font-size: 48px;
+    color: beige;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.become-recommender-description{
+    font-size: 16px;
+    color: beige;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.become-recommender-btns{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.become-counselor-recommender-container{
+    display: flex;
+    justify-content: stretch;
+    gap: 2rem;
+    padding: 2rem;
 }
 .become-counselor-heading{
     font-size: 48px;
@@ -222,8 +265,8 @@ span{
     margin-bottom: 1rem;
     text-align: center;
 }
-.become-counselor-content{
-    font-size: 24px;
+.become-counselor-description{
+    font-size: 16px;
     color: maroon;
     margin-bottom: 1rem;
     text-align: center;
