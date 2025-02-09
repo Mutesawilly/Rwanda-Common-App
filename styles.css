@@ -354,27 +354,98 @@ span{
     height: 100%;
     object-fit: cover;
 }
-.footer{
+/* footer */
+.footer-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: maroon;
-    color: beige;
-    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 2.5rem;
+    color: maroon;
 }
-.footer-content{
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: beige;
+}
+li a{
+    color: maroon;
+    text-decoration: none;
+}
+.footer-socials a{
+    color: maroon;
+    text-decoration: none;
+}
+.footer-socials a:hover{
+    color: maroon;
+}
+.footer-socials span{
+    color: maroon;
+}
+.footer-socials span:hover{
+    color: maroon;
+}
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    color: maroon;
+    text-decoration: none;
+    background-color: rgba(230, 223, 223, 0.7);
+}
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-newsletter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.email-input{
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    width: 100%;
+    background-color: beige;
+    color: maroon;
+}
+.sub-button{
+    color: beige;
+    background-color: maroon;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    border: beige 2px solid;
+}
+.footer-bottom{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-.footer-content a{
-    color: beige;
-    text-decoration: none;
-}
-.footer-content a:hover{
-    color: white;
-}
-.footer-content span{
-    color: beige;
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
